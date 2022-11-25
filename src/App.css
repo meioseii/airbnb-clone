@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  border: px solid black;
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  height: 853px;
+  width: 550px;
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: white;
+  padding: 0px 0px 0px 30px;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  height: 25.35px;
+  width: 82px;
+}
+
+.photo-grid {
+  height: 232px;
+  width: 395.91px;
+  margin: 26px 77px 32px 77px
+}
+
+.header1 {
+  height: 40px;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0px 0px 16px 36px;
+  line-height: 40px;
+}
+
+.info {
+  height: 56px;
+  width: 320px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 0px 0px 36px;
+  line-height: 17.6px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  overflow-y: hidden;
+  padding: 49px 37px 20px 37px;
+  gap: 18px;
+}
+
+.card {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.card-status {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  height: 20px;
+  width: 61px;
+  padding: 5px 6px;
+  border-radius: 2px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 110%;
+  text-align: center;
+}
+
+
+.image {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+  
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 14px;
+}
+
+.star {
+  height: 14px;
+  width: 14px;
+  margin: 0px;
+}
+
+.avg-rating {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #222222;
+}
+
+.ppl-rated {
+  margin: 0px;
+  font-size: 12px;
+  color: #918E9B;
+}
+
+.center-dot {
+  margin: 0px;
+  color: #918E9B;
+}
+
+.country {
+  margin: 0px;
+  font-size: 12px;
+  color: #918E9B;
+}
+
+.title {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 14px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 110%;
+}
+
+.cost-bold {
+  font-weight: 600;
+}
+
+.cost {
+  margin: 0px;
+  height: 14px;
+  font-size: 12px;
+  line-height: 110%;
+}
