@@ -1,4 +1,5 @@
 import React from 'react'
+import star from '../public/assets/star.png'
 
 
 function Card(props) {
@@ -14,7 +15,7 @@ function Card(props) {
             {badgeText && <div className="card-status">{badgeText}</div>}
             <img src={props.item.coverImg} className='image' />
             <div className="rating">
-                <img src='../public/assets/star.png' className='star'/>
+                <img src={star} className='star'/>
                 <span className='avg-rating'>{props.item.stats.rating}</span>
                 <span className='ppl-rated'>({props.item.stats.reviewCount})</span>
                 <span className='center-dot'>•</span>
